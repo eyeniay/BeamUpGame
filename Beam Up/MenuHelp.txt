@@ -1,0 +1,20 @@
+				GENERAL INFORMATION
+ The game is played on a board including squares. The squares have 
+different points.There are two players.The players collect the squares's 
+points to increase their scores in turns. The aim of the game is gaining 
+the highest score in 25 rounds.
+
+				GAME INITIALIZATION
+ In the beginning of the game 4 lines are formed.Each of these lines has 
+minimum 4 squares and maximum 8 squares. Squares have 0-4 points. The 
+first player begins the game. Two players determine their beginning
+squares by beaming up operation.
+
+			 GAME PLAYING INFORMATION
+ Players have two movement options. When a player comes to a square, 
+point of the square is added to his/her score. Then this square's point 
+decreased to 0. If there are three 0 consecutively in the game at
+any time and players are not at any of these three squares,these squares 
+will be deleted.Then new 3 squares created and added to the line which 
+has minimum squares with the random addition point in the line.
+Two players cannot be on the same square at the same time.  
